@@ -1,0 +1,20 @@
+[project]
+name = "discovery-engine"
+version = "0.1.0"
+description = "AI Discovery Engine for ingesting documents and querying them with retrieval-augmented generation"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "fastapi>=0.135.1",
+    "fastembed>=0.7.4",
+    "httpx>=0.28.1",
+    "pydantic>=2.12.5",
+    "pydantic-ai>=1.63.0",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.2.1",
+    "qdrant-client>=1.17.0",
+    "requests>=2.32.0",
+    "streamlit>=1.55.0",
+    "uvicorn>=0.41.0",
+]
